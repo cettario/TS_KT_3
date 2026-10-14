@@ -1,0 +1,13 @@
+{
+  "name": "control-point-3",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node dist/main.js",
+    "test": "npm run build && node dist/test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
